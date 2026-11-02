@@ -1,0 +1,13 @@
+Package: com.chenlin8023.notifiericons
+Name: NotifierIcons
+Version: 0.9.2
+Architecture: iphoneos-arm64
+Section: Tweaks
+Priority: optional
+Maintainer: Chenlin8023
+Author: Chenlin8023
+Depends: mobilesubstrate, preferenceloader
+Description: 状态栏显示选中应用的通知小图标（带红色角标数字），有角标才出现、清零即消失。
+ 仅注入 SpringBoard（桌面/锁屏生效，App 内不显示），图标位置可调（居中/灵动岛左/右 + 微调）。
+ 架构参考 NotifierDots（iOS 11-14.3）与 MooreBarX15，适配 iOS 16-17。
+ rootless（/var/jb）包，arm64 + arm64e。构建为诊断版：调试日志默认开启。
